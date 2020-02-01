@@ -2,48 +2,48 @@
 
 print ('How many test did you give out?')
 # It allows you to input your how many test you gave out
-Answer = input()
-if Answer == '1':
+answer = input()
+if answer == '1':
     # Allows you to input the test score
     print ('Enter the test Score: ')
     firstScore = int (input())
     secondScore = 0
-    TestScore = firstScore + secondScore
-    print ('The Test Score is: %s' % (TestScore))
-elif Answer == '2':
+    testScore = firstScore + secondScore
+    print ('The Test Score is: %s' % (testScore))
+elif answer == '2':
     # Allows you to input the first test score
     print ('Enter the first test Score: ')
     firstScore = int (input())
     # Allows you to input the Second test score
     print('Enter the second test Score: ')
     secondScore = int (input())
-    TestScore = firstScore + secondScore
-    print ('The Test Score is: %s' % (TestScore))
+    testScore = firstScore + secondScore
+    print ('The Test Score is: %s' % (testScore))
     # Allows you to input the Exam score
 print ('Enter the exam Score: ')
-ExamScore = int (input())
-Sum = TestScore + ExamScore
-print ('The Sum of both scores is: %s' % (Sum))
+examScore = int (input())
+SumOfScores = testScore + examScore
+print ('The Sum of both scores is: %s' % (SumOfScores))
 # Assign Grades to Scores
-if Sum > 100:
+if SumOfScores > 100:
     print ('Invalid Score')
-elif Sum >= 75:
+elif SumOfScores >= 75:
     print ('Your grade is: A')
-elif Sum >= 70:
+elif SumOfScores >= 70:
     print ('Your grade is: AB')
-elif Sum >= 65:
+elif SumOfScores >= 65:
     print ('Your grade is: B')
-elif Sum >= 60:
+elif SumOfScores >= 60:
     print ('Your grade is: BC')
-elif Sum >= 55:
+elif SumOfScores >= 55:
     print ('Your grade is: C')
-elif Sum >= 50:
+elif SumOfScores >= 50:
     print ('Your grade is: CD')
-elif Sum >= 45:
+elif SumOfScores >= 45:
     print ('Your grade is: D')
-elif Sum >= 40:
+elif SumOfScores >= 40:
     print ('Your grade is: E')
-elif Sum < 40:
+elif SumOfScores < 40:
     print ('Your grade is: F')
     print ('You failed the course')
     print ('Try again in another Semester')
