@@ -1,5 +1,4 @@
-# Transposition Cipher Encryption
-# http://inventwithpython.com/hacking (BSD Licensed)
+
 
 def main():
     myMessage = 'Common sense is not so common.'
